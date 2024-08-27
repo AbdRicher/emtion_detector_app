@@ -218,7 +218,7 @@ def Clean_text(text):
     # Use the get_lower_text method
     text = lower_text_obj.get_lower_text()
     
-    text = nltk.word_tokenize(text)
+    text = text.split(" ")
 
     y = []
 
